@@ -1,7 +1,7 @@
 import arabicAdultsImg from "@/assets/arabic-adults.png";
 import arabicKidsImg from "@/assets/arabic-kids.jpg";
 import arabicAdvancedImg from "@/assets/arabic-adults.png";
-import islamicFoundationImg from "@/assets/arabic-adults.png";
+import islamicFoundationImg from "@/assets/islamic-foundation.png";
 import quranStudyImg from "@/assets/quran-study.webp";
 import { CourseCard } from "./CourseCard";
 
