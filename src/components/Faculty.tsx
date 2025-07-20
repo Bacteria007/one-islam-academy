@@ -10,17 +10,18 @@ export const Faculty = () => {
       qualifications: ["PhD in Arabic Literature", "Ijazah in Quran", "20+ years experience"],
       specialties: ["Classical Arabic", "Advanced Grammar", "Arabic Literature"],
       description: "Dr. Ahmad brings two decades of experience in teaching Arabic to non-native speakers, with a special focus on classical texts and advanced grammar.",
-      image: "/api/placeholder/300/400"
+      image: "/api/placeholder/300/400",
+      whatsapp: "923156425847"
     },
     {
-      name: "Ustadha Fatima Al-Zahra",
+      name: "Sheikh Abdullah",
       title: "Quran & Tajweed Specialist", 
       qualifications: ["Ijazah in Quran Recitation", "Certified Tajweed Instructor", "15+ years experience"],
       specialties: ["Quranic Studies", "Tajweed", "Hifz Supervision"],
-      description: "Ustadha Fatima is renowned for her beautiful recitation and expertise in Tajweed, helping students achieve mastery in Quranic pronunciation.",
-      image: "/api/placeholder/300/400"
+      description: "Sheikh Abdullah is renowned for her beautiful recitation and expertise in Tajweed, helping students achieve mastery in Quranic pronunciation.",
+      image: "/api/placeholder/300/400",
+      whatsapp: "923042353072"
     },
-   
   ];
 
   return (
@@ -90,6 +91,21 @@ export const Faculty = () => {
                         </Badge>
                       ))}
                     </div>
+                  </div>
+
+                  {/* Individual WhatsApp Contact */}
+                  <div className="mt-4">
+                    <h4 className="font-semibold text-sm mb-2 flex items-center gap-2">
+                      Contact via WhatsApp
+                    </h4>
+                    <a 
+                      href={`https://wa.me/${member.whatsapp}`} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-primary hover:underline text-sm"
+                    >
+                      +{member.whatsapp}
+                    </a>
                   </div>
                 </div>
               </CardContent>
