@@ -48,7 +48,7 @@ All colors MUST be HSL.
     --islamic-sage: 180 25% 65%;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, rgb(6,87,103), hsl(43, 59%, 55%));
+    --gradient-primary: linear-gradient(135deg, hsl(190, 88%, 21%), hsl(43, 59%, 55%));
     --gradient-secondary: linear-gradient(135deg, hsl(180 60% 45%), hsl(180 50% 60%));
     --gradient-hero: linear-gradient(135deg, hsl(45 25% 98%), hsl(180 15% 96%));
 
