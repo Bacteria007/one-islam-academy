@@ -48,7 +48,6 @@ export const Footer = () => {
               <li><a href="#home" className="text-muted-foreground hover:text-primary transition-colors text-sm">Home</a></li>
               <li><a href="#about" className="text-muted-foreground hover:text-primary transition-colors text-sm">About Us</a></li>
               <li><a href="#courses" className="text-muted-foreground hover:text-primary transition-colors text-sm">Courses</a></li>
-              <li><a href="#coaching" className="text-muted-foreground hover:text-primary transition-colors text-sm">Coaching</a></li>
               <li><a href="#faculty" className="text-muted-foreground hover:text-primary transition-colors text-sm">Our Faculty</a></li>
               <li><a href="#blogs" className="text-muted-foreground hover:text-primary transition-colors text-sm">Blogs</a></li>
             </ul>
@@ -76,7 +75,7 @@ export const Footer = () => {
               </div>
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+92 304 2353072</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 text-primary" />
@@ -84,18 +83,7 @@ export const Footer = () => {
               </div>
             </div>
             
-            <div className="space-y-2">
-              <p className="text-sm font-medium text-foreground">Subscribe to our newsletter</p>
-              <div className="flex space-x-2">
-                <Input 
-                  placeholder="Enter your email" 
-                  className="text-sm"
-                />
-                <Button size="sm" className="bg-gradient-to-r from-primary to-primary-glow">
-                  Subscribe
-                </Button>
-              </div>
-            </div>
+            
           </div>
         </div>
         
