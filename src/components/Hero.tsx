@@ -38,6 +38,7 @@ export const Hero = () => {
               <BookOpen className="mr-2 h-5 w-5" />
               Join Our Classes
             </Button>
+           <a href="#courses">
             <Button 
               size="lg" 
               variant="outline" 
@@ -45,6 +46,7 @@ export const Hero = () => {
             >
               View Courses
             </Button>
+            </a>
           </div>
 
           {/* Features */}

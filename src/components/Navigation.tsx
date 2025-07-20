@@ -114,15 +114,6 @@ export const Navigation = () => {
                 Our Faculty
               </NavigationMenuLink>
             </NavigationMenuItem>
-
-            <NavigationMenuItem>
-              <NavigationMenuLink
-                className="inline-flex h-10 items-center px-4 py-2 text-sm font-medium text-gray-300 hover:text-yellow-400 transition-colors"
-                href="#blogs"
-              >
-                Blogs
-              </NavigationMenuLink>
-            </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
 
@@ -170,10 +161,7 @@ export const Navigation = () => {
               <a href="#faculty" className="text-lg font-medium hover:text-yellow-400 transition-colors">
                 Our Faculty
               </a>
-              <a href="#blogs" className="text-lg font-medium hover:text-yellow-400 transition-colors">
-                Blogs
-              </a>
-              
+                           
               <Button className="mt-6 bg-yellow-600 hover:bg-yellow-700 text-white">
                 Join Our Classes
               </Button>
