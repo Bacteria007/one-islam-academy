@@ -99,7 +99,7 @@ export const Faculty = () => {
                       href={`https://wa.me/${member.whatsapp}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center w-full px-4 py-3 bg-gradient-to-r from-[#CAAB4E] to-yellow-600  text-white font-medium text-sm rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-yellow-500/25 hover:-translate-y-0.5 group"
+                      className="inline-flex items-center justify-center w-full px-4 py-3   bg-secondary hover:bg-secondary/90  text-white font-medium text-sm rounded-xl transition-all duration-300 hover:shadow-lg  hover:-translate-y-0.5 group"
                     >
                       <svg
                         className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform duration-300"
