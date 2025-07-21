@@ -41,7 +41,7 @@ export const CoursesSection = () => {
       duration: "24 months",
       classSize: 5,
       platform: "Zoom",
-      book: "العربية بين يديك أولادنا (Arabic in the Hands of Our Children)",
+      book: "العربية بين يدي أولادنا (Arabic in the Hands of Our Children)",
       description: "Fun and engaging Arabic learning program specially designed for children aged 6-14 years.",
       variant: "secondary" as const,
       levels: [
@@ -118,6 +118,7 @@ export const CoursesSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
           {courses.map((course) => (
             <CourseCard
+            courseId={course.id}
               key={course.id}
               title={course.title}
               duration={course.duration}
